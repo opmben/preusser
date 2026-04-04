@@ -52,18 +52,31 @@ export default function ProjectsTeaser() {
                   loading="lazy"
                 />
                 {/* Overlay */}
+<<<<<<< HEAD
                 <div className="absolute inset-0 bg-gradient-to-t from-bg-primary/90 via-bg-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                   <h3 className="text-text-primary font-semibold text-sm">
                     {project.title}
                   </h3>
                   <p className="text-text-muted text-xs mt-0.5">
+=======
+                <div className="absolute inset-0 bg-gradient-to-t from-[#111117]/90 via-[#111117]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                  <h3 className="text-white font-semibold text-sm">
+                    {project.title}
+                  </h3>
+                  <p className="text-neutral-300 text-xs mt-0.5">
+>>>>>>> c7647158 (Light design)
                     {project.location}
                   </p>
                 </div>
                 {/* Category badge */}
                 <div className="absolute top-3 left-3">
+<<<<<<< HEAD
                   <span className="bg-bg-primary/80 backdrop-blur-sm border border-border text-text-muted text-xs px-2 py-1 rounded capitalize">
+=======
+                  <span className="bg-[#111117]/70 backdrop-blur-sm border border-white/10 text-white/80 text-xs px-2 py-1 rounded capitalize">
+>>>>>>> c7647158 (Light design)
                     {project.category}
                   </span>
                 </div>

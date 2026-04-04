@@ -88,24 +88,24 @@ export default function ProjekteContent() {
                       loading="lazy"
                     />
                     {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-bg-primary/90 via-bg-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#111117]/90 via-[#111117]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                       <div className="p-4 text-left">
-                        <h3 className="text-text-primary font-semibold text-sm">
+                        <h3 className="text-white font-semibold text-sm">
                           {project.title}
                         </h3>
-                        <p className="text-text-muted text-xs mt-0.5">
+                        <p className="text-neutral-300 text-xs mt-0.5">
                           {project.location}
                         </p>
                       </div>
                     </div>
                     {/* Category badge */}
                     <div className="absolute top-3 left-3">
-                      <span className="bg-bg-primary/80 backdrop-blur-sm border border-border text-text-muted text-xs px-2 py-1 rounded capitalize">
+                      <span className="bg-[#111117]/70 backdrop-blur-sm border border-white/10 text-white/80 text-xs px-2 py-1 rounded capitalize">
                         {project.category}
                       </span>
                     </div>
                     {/* Zoom icon */}
-                    <div className="absolute top-3 right-3 p-1.5 bg-bg-primary/60 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                    <div className="absolute top-3 right-3 p-1.5 bg-[#111117]/60 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                       <ZoomIn size={16} className="text-accent" />
                     </div>
                   </button>
@@ -130,14 +130,14 @@ export default function ProjekteContent() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[100] bg-bg-primary/95 backdrop-blur-sm flex items-center justify-center p-4"
+            className="fixed inset-0 z-[100] bg-[#0f1117]/95 backdrop-blur-sm flex items-center justify-center p-4"
             onClick={() => setLightbox(null)}
             role="dialog"
             aria-modal="true"
             aria-label={lightbox.title}
           >
             <button
-              className="absolute top-4 right-4 p-2 text-text-muted hover:text-text-primary transition-colors"
+              className="absolute top-4 right-4 p-2 text-neutral-400 hover:text-white transition-colors"
               onClick={() => setLightbox(null)}
               aria-label="Schließen"
             >
@@ -158,11 +158,11 @@ export default function ProjekteContent() {
                 className="object-cover"
                 sizes="90vw"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-bg-primary/80 to-transparent p-6">
-                <h2 className="text-text-primary font-semibold text-lg">
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0f1117]/80 to-transparent p-6">
+                <h2 className="text-white font-semibold text-lg">
                   {lightbox.title}
                 </h2>
-                <p className="text-text-muted text-sm mt-1">
+                <p className="text-neutral-300 text-sm mt-1">
                   {lightbox.location} · {lightbox.category}
                 </p>
               </div>

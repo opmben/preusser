@@ -44,7 +44,14 @@ export default function Navbar() {
             className="flex flex-col leading-tight group"
             aria-label="Preußer Bedachungen – Startseite"
           >
+<<<<<<< HEAD
             <span className="font-display text-2xl text-text-primary tracking-wider group-hover:text-accent transition-colors duration-200">
+=======
+            <span className={cn(
+              "font-display text-2xl tracking-wider group-hover:text-accent transition-colors duration-200",
+              scrolled || menuOpen ? "text-text-primary" : "text-white"
+            )}>
+>>>>>>> c7647158 (Light design)
               PREUSSER
             </span>
             <span className="text-accent text-xs font-mono tracking-widest uppercase">
@@ -62,7 +69,13 @@ export default function Navbar() {
                     "relative text-sm font-medium transition-colors duration-200 py-1",
                     pathname === link.href
                       ? "text-accent"
+<<<<<<< HEAD
                       : "text-text-muted hover:text-text-primary"
+=======
+                      : scrolled || menuOpen
+                        ? "text-text-muted hover:text-text-primary"
+                        : "text-white/80 hover:text-white"
+>>>>>>> c7647158 (Light design)
                   )}
                   aria-current={pathname === link.href ? "page" : undefined}
                 >
@@ -81,14 +94,25 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <Link
             href="/kontakt"
+<<<<<<< HEAD
             className="hidden lg:inline-flex items-center bg-accent hover:bg-accent-hover text-bg-primary font-semibold text-sm px-5 py-2.5 rounded-sm transition-colors duration-200"
+=======
+            className="hidden lg:inline-flex items-center bg-accent hover:bg-accent-hover text-white font-semibold text-sm px-5 py-2.5 rounded-sm transition-colors duration-200"
+>>>>>>> c7647158 (Light design)
           >
             Angebot anfragen
           </Link>
 
           {/* Mobile hamburger */}
           <button
+<<<<<<< HEAD
             className="lg:hidden p-2 text-text-primary hover:text-accent transition-colors"
+=======
+            className={cn(
+              "lg:hidden p-2 hover:text-accent transition-colors",
+              scrolled || menuOpen ? "text-text-primary" : "text-white"
+            )}
+>>>>>>> c7647158 (Light design)
             onClick={() => setMenuOpen((prev) => !prev)}
             aria-expanded={menuOpen}
             aria-label={menuOpen ? "Menü schließen" : "Menü öffnen"}
