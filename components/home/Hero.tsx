@@ -17,7 +17,11 @@ export default function Hero() {
       {/* TODO: Replace with real rooftop/craftsman photo */}
       <div className="absolute inset-0 z-0">
         <Image
+<<<<<<< HEAD
           src="https://placehold.co/1920x1080/0f1117/252836?text=."
+=======
+          src="https://placehold.co/1920x1080/1a1d27/252836?text=."
+>>>>>>> c7647158 (Light design)
           alt=""
           fill
           className="object-cover"
@@ -59,7 +63,11 @@ export default function Hero() {
           {/* Headline */}
           <motion.h1
             variants={heroItem}
+<<<<<<< HEAD
             className="font-display text-7xl sm:text-8xl lg:text-[110px] xl:text-[130px] text-text-primary uppercase leading-none mb-6"
+=======
+            className="font-display text-7xl sm:text-8xl lg:text-[110px] xl:text-[130px] text-white uppercase leading-none mb-6"
+>>>>>>> c7647158 (Light design)
             style={{ letterSpacing: "0.01em" }}
           >
             IHR DACH
@@ -72,7 +80,11 @@ export default function Hero() {
           {/* Subheadline */}
           <motion.p
             variants={heroItem}
+<<<<<<< HEAD
             className="text-text-muted text-lg sm:text-xl max-w-xl leading-relaxed mb-10"
+=======
+            className="text-neutral-300 text-lg sm:text-xl max-w-xl leading-relaxed mb-10"
+>>>>>>> c7647158 (Light design)
           >
             Wir sind Ihr zuverlässiger Partner rund ums Dach — vom Neubau bis
             zur Sanierung, von Steildach bis Solaranlage. Familienbetrieb mit
@@ -101,6 +113,7 @@ export default function Hero() {
 
           {/* Phone */}
           <motion.div variants={heroItem} className="mt-10 flex items-center gap-3">
+<<<<<<< HEAD
             <div className="p-2 rounded-sm bg-bg-secondary border border-border">
               <Phone size={16} className="text-accent" />
             </div>
@@ -109,6 +122,16 @@ export default function Hero() {
               <a
                 href={`tel:${BUSINESS.phone.replace(/\s/g, "")}`}
                 className="text-text-primary font-semibold hover:text-accent transition-colors duration-200"
+=======
+            <div className="p-2 rounded-sm bg-white/10 border border-white/20">
+              <Phone size={16} className="text-accent" />
+            </div>
+            <div>
+              <p className="text-neutral-400 text-xs">Jetzt anrufen</p>
+              <a
+                href={`tel:${BUSINESS.phone.replace(/\s/g, "")}`}
+                className="text-white font-semibold hover:text-accent transition-colors duration-200"
+>>>>>>> c7647158 (Light design)
               >
                 {BUSINESS.phone}
               </a>
@@ -125,7 +148,11 @@ export default function Hero() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
         aria-hidden="true"
       >
+<<<<<<< HEAD
         <span className="text-text-muted text-xs font-mono tracking-widest uppercase">
+=======
+        <span className="text-neutral-400 text-xs font-mono tracking-widest uppercase">
+>>>>>>> c7647158 (Light design)
           Scroll
         </span>
         <motion.div

@@ -53,7 +53,11 @@ export const SERVICES = [
       "Sturmschadenreparatur",
     ],
     icon: "home",
+<<<<<<< HEAD
     image: "https://placehold.co/800x500/252836/e8a020?text=Dachdeckerarbeiten",
+=======
+    image: "https://placehold.co/800x500/e8e5de/c98a0d?text=Dachdeckerarbeiten",
+>>>>>>> c7647158 (Light design)
     imageAlt: "Dachdeckerarbeiten — Preußer Bedachungen Boppard",
   },
   {
@@ -70,7 +74,11 @@ export const SERVICES = [
       "Dachgauben",
     ],
     icon: "triangle",
+<<<<<<< HEAD
     image: "https://placehold.co/800x500/252836/e8a020?text=Steildach+Referenz",
+=======
+    image: "https://placehold.co/800x500/e8e5de/c98a0d?text=Steildach+Referenz",
+>>>>>>> c7647158 (Light design)
     imageAlt: "Steildach Referenz — Preußer Bedachungen Boppard",
   },
   {
@@ -87,7 +95,11 @@ export const SERVICES = [
       "Lichtkuppeln",
     ],
     icon: "minus",
+<<<<<<< HEAD
     image: "https://placehold.co/800x500/252836/e8a020?text=Flachdach+System",
+=======
+    image: "https://placehold.co/800x500/e8e5de/c98a0d?text=Flachdach+System",
+>>>>>>> c7647158 (Light design)
     imageAlt: "Flachdach System — Preußer Bedachungen Boppard",
   },
   {
@@ -103,7 +115,11 @@ export const SERVICES = [
       "Wartung",
     ],
     icon: "sun",
+<<<<<<< HEAD
     image: "https://placehold.co/800x500/252836/e8a020?text=Solaranlage+Dach",
+=======
+    image: "https://placehold.co/800x500/e8e5de/c98a0d?text=Solaranlage+Dach",
+>>>>>>> c7647158 (Light design)
     imageAlt: "Solaranlage auf Dach — Preußer Bedachungen Boppard",
   },
   {
@@ -120,7 +136,11 @@ export const SERVICES = [
       "Kehlen",
     ],
     icon: "wrench",
+<<<<<<< HEAD
     image: "https://placehold.co/800x500/252836/e8a020?text=Klempnerarbeiten",
+=======
+    image: "https://placehold.co/800x500/e8e5de/c98a0d?text=Klempnerarbeiten",
+>>>>>>> c7647158 (Light design)
     imageAlt: "Klempnerarbeiten — Preußer Bedachungen Boppard",
   },
 ] as const;
@@ -136,7 +156,11 @@ export const PROJECTS = [
     title: "Steildach Sanierung",
     category: "steildach",
     location: "Boppard",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/252836/e8a020?text=Steildach+Sanierung",
+=======
+    image: "https://placehold.co/600x400/e8e5de/c98a0d?text=Steildach+Sanierung",
+>>>>>>> c7647158 (Light design)
     alt: "Steildach Sanierung in Boppard",
   },
   {
@@ -144,7 +168,11 @@ export const PROJECTS = [
     title: "Flachdach EPDM",
     category: "flachdach",
     location: "Bad Salzig",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/1a1d27/e8a020?text=Flachdach+EPDM",
+=======
+    image: "https://placehold.co/600x400/dedad0/c98a0d?text=Flachdach+EPDM",
+>>>>>>> c7647158 (Light design)
     alt: "Flachdach EPDM Abdichtung in Bad Salzig",
   },
   {
@@ -152,7 +180,11 @@ export const PROJECTS = [
     title: "PV-Anlage Aufdachmontage",
     category: "solar",
     location: "Rhens",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/252836/e8a020?text=Solar+Aufdach",
+=======
+    image: "https://placehold.co/600x400/e8e5de/c98a0d?text=Solar+Aufdach",
+>>>>>>> c7647158 (Light design)
     alt: "PV-Anlage Aufdachmontage in Rhens",
   },
   {
@@ -160,7 +192,11 @@ export const PROJECTS = [
     title: "Ziegeleindeckung Neubau",
     category: "steildach",
     location: "Koblenz Umland",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/1a1d27/e8a020?text=Ziegeleindeckung",
+=======
+    image: "https://placehold.co/600x400/dedad0/c98a0d?text=Ziegeleindeckung",
+>>>>>>> c7647158 (Light design)
     alt: "Ziegeleindeckung Neubau Koblenz Umland",
   },
   {
@@ -168,7 +204,11 @@ export const PROJECTS = [
     title: "Dachrinnen & Fallrohre",
     category: "klempner",
     location: "Boppard-Buchholz",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/252836/e8a020?text=Klempner+Rinnen",
+=======
+    image: "https://placehold.co/600x400/e8e5de/c98a0d?text=Klempner+Rinnen",
+>>>>>>> c7647158 (Light design)
     alt: "Dachrinnen und Fallrohre in Boppard-Buchholz",
   },
   {
@@ -176,7 +216,11 @@ export const PROJECTS = [
     title: "Schieferdeckung Altbau",
     category: "steildach",
     location: "Boppard",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/1a1d27/e8a020?text=Schieferdeckung",
+=======
+    image: "https://placehold.co/600x400/dedad0/c98a0d?text=Schieferdeckung",
+>>>>>>> c7647158 (Light design)
     alt: "Schieferdeckung Altbausanierung in Boppard",
   },
   {
@@ -184,7 +228,11 @@ export const PROJECTS = [
     title: "Dachbegrünung Flachdach",
     category: "flachdach",
     location: "Koblenz",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/252836/e8a020?text=Dachbegrunung",
+=======
+    image: "https://placehold.co/600x400/e8e5de/c98a0d?text=Dachbegrunung",
+>>>>>>> c7647158 (Light design)
     alt: "Dachbegrünung Flachdach in Koblenz",
   },
   {
@@ -192,7 +240,11 @@ export const PROJECTS = [
     title: "Solarmontage Bestand",
     category: "solar",
     location: "Bad Salzig",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/1a1d27/e8a020?text=Solar+Bestand",
+=======
+    image: "https://placehold.co/600x400/dedad0/c98a0d?text=Solar+Bestand",
+>>>>>>> c7647158 (Light design)
     alt: "Solarmontage auf Bestandsdach in Bad Salzig",
   },
   {
@@ -200,7 +252,11 @@ export const PROJECTS = [
     title: "Gauben & Dachfenster",
     category: "steildach",
     location: "Rhens",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/252836/e8a020?text=Gauben+Dachfenster",
+=======
+    image: "https://placehold.co/600x400/e8e5de/c98a0d?text=Gauben+Dachfenster",
+>>>>>>> c7647158 (Light design)
     alt: "Gauben und Dachfenster in Rhens",
   },
   {
@@ -208,7 +264,11 @@ export const PROJECTS = [
     title: "Wandanschlüsse Blech",
     category: "klempner",
     location: "Boppard",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/1a1d27/e8a020?text=Wandanschlusse",
+=======
+    image: "https://placehold.co/600x400/dedad0/c98a0d?text=Wandanschlusse",
+>>>>>>> c7647158 (Light design)
     alt: "Wandanschlüsse Blecharbeiten in Boppard",
   },
   {
@@ -216,7 +276,11 @@ export const PROJECTS = [
     title: "Bitumendach Gewerbe",
     category: "flachdach",
     location: "Koblenz Umland",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/252836/e8a020?text=Bitumendach",
+=======
+    image: "https://placehold.co/600x400/e8e5de/c98a0d?text=Bitumendach",
+>>>>>>> c7647158 (Light design)
     alt: "Bitumendach Gewerbebau Koblenz Umland",
   },
   {
@@ -224,7 +288,11 @@ export const PROJECTS = [
     title: "Komplettsanierung Dach",
     category: "steildach",
     location: "Boppard",
+<<<<<<< HEAD
     image: "https://placehold.co/600x400/1a1d27/e8a020?text=Komplettsanierung",
+=======
+    image: "https://placehold.co/600x400/dedad0/c98a0d?text=Komplettsanierung",
+>>>>>>> c7647158 (Light design)
     alt: "Komplettsanierung Dach in Boppard",
   },
 ] as const;
